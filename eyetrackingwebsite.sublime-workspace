@@ -1,0 +1,216 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/dmenghan/Dropbox/Fall 2014/TODO",
+			"settings":
+			{
+				"buffer_size": 824,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dmenghan/Documents/Divi's Work/Career Inpact2/-- Career Inpact SQL - Nov 26 2014.sql",
+		"/Users/dmenghan/Dropbox/Fall 2014/Sensors/1632898785547670f53ff5e/experiment2.html",
+		"/Users/dmenghan/Dropbox/Fall 2014/Sensors/1632898785547670f53ff5e/experiment1.html",
+		"/Users/dmenghan/Dropbox/Fall 2014/Sensors/1632898785547670f53ff5e/index.html",
+		"/Users/dmenghan/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/dmenghan/Library/Application Support/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/Users/dmenghan/Documents/Divi's Work/Queries/FS Joins.sql",
+		"/Users/dmenghan/Library/Application Support/Sublime Text 2/Packages/User/TodoManager.sublime-settings",
+		"/Users/dmenghan/Library/Application Support/Sublime Text 2/Packages/TodoManager/TodoManager.sublime-settings",
+		"/Users/dmenghan/Dropbox/Fall 2014/TODO (dmenghan-mn1's conflicted copy 2014-11-11)",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/Stat135Week3.R",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/Stat135Week1.R",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/Section_11_20.R",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/section_05.r",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/section_04.r",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/section_03.r",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/section_02.r",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/Sec_Nov20_Christine.R",
+		"/Users/dmenghan/Dropbox/Fall 2014/Stat 135/Fall 2013/Section_Material/Sec_Dec4_Christine.R",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/imported/Five Button Sketch/layers.json.js",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/imported/Five Button Sketch/layers.json",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/framer/mirror.css",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/offline.html",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/index.html",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/app.coffee",
+		"/Users/dmenghan/Google Drive/UIDD/PSD/Five Button Sketch.framer/framer/config.json",
+		"/Users/dmenghan/Library/Application Support/Framer Studio/Snippets/Example.coffee",
+		"/Users/dmenghan/Prototypes/New Project.framer/images/icon.png",
+		"/Users/dmenghan/Documents/Divi's Work/Wiki/Career InPact Dashboard.sql",
+		"/Users/dmenghan/Documents/Divi's Work/Career Inpact2/Career_InPact_2.sql",
+		"/Users/dmenghan/Documents/Divi's Work/Queries/CII_20140612_Review_DM.sql",
+		"/Users/dmenghan/Dropbox/Fall 2014/UIDD/FramerJS/framer-exercises/Lesson 2/AnimationBasics-solution.framer/app.coffee",
+		"/Users/dmenghan/Dropbox/Fall 2014/UIDD/FramerJS/framer-exercises/Lesson 1/Intro-solution.framer/framer/coffee-script.js",
+		"/Users/dmenghan/Dropbox/Fall 2014/UIDD/FramerJS/framer-exercises/Lesson 1/Intro-solution.framer/index.html",
+		"/Users/dmenghan/Dropbox/Fall 2014/InfoViz/Assignment 3/wine.csv",
+		"/Users/dmenghan/Downloads/install_anaconda.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"distinct",
+			"            <",
+			"main",
+			"page",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/dmenghan/Dropbox/Fall 2014/TODO",
+					"settings":
+					{
+						"buffer_size": 824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
