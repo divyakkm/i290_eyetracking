@@ -30,88 +30,87 @@
       <section>
 <h2>Project Goals</h2>
 <p>
-<pre>
 The goal of our project is to identify subjects’ eye gaze patterns when they are reading on a screen while listening to accompanying audio, either synchronized (verbatim) speech or non-synchronized natural speech and to measure comprehension of the content read/heard. We also compare this with gaze patterns and comprehension for a single stimulus (only text or only audio).
-We use this to gain insight that might help us make a case for (or against) audio-assisted reading.
-</pre>
+<br>We use this to gain insight that might help us make a case for (or against) audio-assisted reading.
 </p>
 
 <h2>Background/Feasibility</h2>
 <p>We stumbled on this idea while brainstorming with Prof. Marti Hearst at the I School, Berkeley. She was very interested in audiobooks and their effectiveness in reading and comprehension. We thought eye-tracking would be a great way to validate existing hypotheses and research about audio-assisted reading by giving evidence of readers’ eye gaze patterns, especially parameters like fixation, saccades, etc. 
-Full set of referenced literature here. 
+Full set of referenced literature here<<Add link>>. 
 </p>
 
 <h2>Experiment</h2>
 <p>
-  We designed an experiment with 4 variants:
-Text only
-Audio only
-Audio synchronized with text (verbatim)
-Audio unsynchronized with text (lecture/talk format, free form, with text as a more formal and verbose reference)
-
+<br>We designed an experiment with 4 variants:
+<br>1. Text only
+<br>2.Audio only
+<br>3. Audio synchronized with text (verbatim)
+<br>4. Audio unsynchronized with text (lecture/talk format, free form, with text as a more formal and verbose reference)
+<br>
 We recruited participants on a voluntary basis and gave each of them two comprehension tasks - one with single stimulus content and the other with double stimulus content. Thus, we assigned them randomly to any of the following four comparison groups:
-
-a) Text alone versus Synchronized audio-assisted text 
-b) Audio alone versus Synchronized audio-assisted text
-c) Text alone versus Unsynchronized audio-assisted text
-d) Audio alone versus Unsynchronized audio assisted text
-
+<br>
+<br>a) Text alone versus Synchronized audio-assisted text 
+<br>b) Audio alone versus Synchronized audio-assisted text
+<br>c) Text alone versus Unsynchronized audio-assisted text
+<br>d) Audio alone versus Unsynchronized audio assisted text
+<br>
 Before the experiment, participants were given information and instructions about the experiment as well as a consent form. After the experiment, we collected their self-reported English proficiency level (text and audio were in English) on the ILR scale and some general demographic information and also asked them informal, qualitative questions about their experience. 
-
+<br>
 In the actual experiment, participant were required to do 2 comprehension tasks. Each task had about 4 minutes of reading and/or listening (with the goal of answering some questions later, which they were informed about before they started). After the reading/listening they were presented with a set of questions based on the text/audio. Questions were multiple choice and a mix of inference/reasoning (E.g. What do you think was the cause of X?) and recall (e.g. How many days did the person A do X? ) related. They were not timed (they could take as much time to answer a question) and we recorded time taken for questions. The reading/listening, however, was timed. Participants were not allowed to refer back to the text while answering questions, so we took this into consideration while setting the questions. They were also not allowed to take notes during the reading/listening nor to pause the audio and read for longer.
-
+<br>
 We recorded the eye-gaze data for each experiment. For audio only, we had a static image consistent with the context of the content instead of accompanying text and we didn’t really record their gaze. We did, however, measure the same while the participant answered questions. During questions, we expected the fixations on different words in the questions/options to give us a hint about dubiousness and deliberation when faced with the question, difficulty level of the question, etc. whereas the lack of fixation could suggest confidence level or carelessness while answering the question. We also got mouse-click data which gave us a hint about uncertainty during questions if a person switched between answer options multiple times before submitting an answer.
-
+<br>
 We used content from http://www.manythings.org/listen/ This has a repository of texts with accompanying audio. We selected two:
-http://www.manythings.org/voa/how/2076.html (for single stimulus)
-http://www.manythings.org/voa/things/7027.html (for double stimulus)
-
+<br>http://www.manythings.org/voa/how/2076.html (for single stimulus)
+<br>http://www.manythings.org/voa/things/7027.html (for double stimulus)
+<br>
 Each person received both of these. The texts and questions did not require/assume any specialized prior knowledge on the part of the participants in order to comprehend. We built web pages using this text and embedded the respective audio files in them. These web pages were used to run the experiments.
-
+<br>
 We used the Reading Comprehension sample questions of the ETS to model our questions based on the content. 
-
+<br>
 For the unsynchronized audio, we recorded a natural, informal rendition of the text in our own voice and words, retaining all the essential facts while leaving out extraneous formal details. Here the content was interspersed with natural expressions, emphasis, repetitions, prompts etc. as deemed necessary. 
-
+<br>
 We used time taken to answer questions and the accuracy of the answers for each task as our metrics to measure effectiveness of comprehension.
 </p>
 
 <h2>Evaluation</h2>
 <p>
-  Once the participants completed the experiment, we did a small qualitative interview to understand and record their experience. Some questions we asked them were:
-What was your experience during the experiment?
-Which task did you like better?
-Which task did you find easier/tougher?
-Which task did you think you did better on?
-What were some difficulties you faced in any/both tasks?
-Do you listen to audiobooks often? Why/why not? What is your experience with them?
-When/under what conditions do you think audio-assisted reading would be useful to you?
-
+Once the participants completed the experiment, we did a small qualitative interview to understand and record their experience. Some questions we asked them were:
+<br>What was your experience during the experiment?
+<br>Which task did you like better?
+<br>Which task did you find easier/tougher?
+<br>Which task did you think you did better on?
+<br>What were some difficulties you faced in any/both tasks?
+<br>Do you listen to audiobooks often? Why/why not? What is your experience with them?
+<br>When/under what conditions do you think audio-assisted reading would be useful to you?
+<br>
 We also showed them the gazing patterns immediately and let them walk us through what/how they read the text. This was interesting and useful for us to know and correlate to the findings from their gaze patterns and comprehension performance metrics. 
-
+<br>
 The SMI toolkit gives us visualizations like heatmap, focus map, swarm path chart, scan chart etc. for each user’s gaze data which helped us compare differences in users’ reading styles.
 </p>
 
 <h2>Results</h2>
 <p>
   Gaze patterns
-<insert videos of gaze patterns and pictures of different visualizations>
-
-People fixate more on nouns, beginning of paragraphs and fact-rich areas
-Saccades in text only and sync audio groups are more linear
-Saccades in unsync audio are all over the place
-Some people read the beginnings of paragraphs and trail off, mentally predicting/inferring the remaining sentence
-Some people concentrate on the middle of paragraphs which have more facts and neglect the noise in the text
-People keep backtracking to comprehend/retain facts when they know they will be tested on them later
-Got insight on uncertainty and deliberation during questions through fixation, saccades and mouse clicks
-Mixed reactions to single stimulus vs. two stimuli
-People liked natural, reinforcing/introductory prompts in unsync. audio
-
+<br><insert videos of gaze patterns and pictures of different visualizations>
+<ul>
+<li>People fixate more on nouns, beginning of paragraphs and fact-rich areas
+<li>Saccades in text only and sync audio groups are more linear
+<li>Saccades in unsync audio are all over the place
+<li>Some people read the beginnings of paragraphs and trail off, mentally predicting/inferring the remaining sentence
+<li>Some people concentrate on the middle of paragraphs which have more facts and neglect the noise in the text
+<li>People keep backtracking to comprehend/retain facts when they know they will be tested on them later
+<li>Got insight on uncertainty and deliberation during questions through fixation, saccades and mouse clicks
+<li>Mixed reactions to single stimulus vs. two stimuli
+<li>People liked natural, reinforcing/introductory prompts in unsync. audio
+</ul>
 </p>
 
 <h2>Considerations</h2>
 <p>
   Comprehension
-
+<table>
+<td>
 Task
 Average 
 Accuracy
@@ -128,15 +127,16 @@ Text + Audio Synchronized
 Text + Audio Unsynchronized
 60%
 9953ms
-
-Order of effectiveness
-Audio > Text > Text + Sync Audio > Text + Unsync Audio
+</table>
+<br>
+<b>Order of effectiveness: Audio > Text > Text + Sync Audio > Text + Unsync Audio<b>
 
 </p>
 
 <h2>Requirements</h2>
 <p>
-  
+
+<table>  
 Case
 Average Time(ms)
 Average accuracy
@@ -182,8 +182,9 @@ Unsync. Audio
 9600
 70%
 60%
+</table>
 
-
+<table>
 Participant
 Single Stimulus (Part One)
 Two Stimuli (Part Two)
@@ -251,60 +252,59 @@ Yes
 60%
 No
 60%
-
+</table>
+<br>
 Qualitative feedback
-“It would be great if the positioning of the facts would match the text, but I like the prompts in the natural audio”
-
-“Though it was annoying, slow audio helped me pay more attention, so I managed to retain more. I think I did better on that.”
-
-“I gave priority to audio...(and stopped reading)”
-
-“I just read the text and ignored the audio”
-
-“I performed better on the first one but liked the second one better”
-
+<i>“It would be great if the positioning of the facts would match the text, but I like the prompts in the natural audio”</i>
+<br>
+<i>“Though it was annoying, slow audio helped me pay more attention, so I managed to retain more. I think I did better on that.”</i>
+<br>
+<i>“I gave priority to audio...(and stopped reading)”</i>
+<br><i>
+“I just read the text and ignored the audio”</i>
+<br>
+<i>“I performed better on the first one but liked the second one better”</i>
 </p>
 <h2>Applications</h2>
 <p>
-  We controlled the experiment by following steps:
-A single participant received two different contents for their two comprehension tasks to eliminate learning effect. There might still be some learning effect with the UI itself, but this could not be controlled, and hopefully would be negligible. 
-We used the same two contents for all the 4 variants we mentioned above. There also was the same time overall for reading/listening. This took care of ensuring difficulty level was same across variants.
-For audio, we controlled the speed of the audio file and ensured it was the same for the cases which had audio in both parts.
-Same questions were asked to all participants. 
-There was a change in audio speeds between synchronized and unsynchronized audio, because we compare audio-book standard audio with natural speech one would use during a lecture/talk to compare effectiveness. 
+<br>We controlled the experiment by following steps:
+<br>A single participant received two different contents for their two comprehension tasks to eliminate learning effect. There might still be some learning effect with the UI itself, but this could not be controlled, and hopefully would be negligible. 
+<br>We used the same two contents for all the 4 variants we mentioned above. There also was the same time overall for reading/listening. This took care of ensuring difficulty level was same across variants.
+<br>For audio, we controlled the speed of the audio file and ensured it was the same for the cases which had audio in both parts.
+<br>Same questions were asked to all participants. 
+<br>There was a change in audio speeds between synchronized and unsynchronized audio, because we compare audio-book standard audio with natural speech one would use during a lecture/talk to compare effectiveness. 
 </p>
 <h2>Future scope/work</h2>
 <p>
-  SMI Eye-tracking system
-Experiment Center for experiment design
-Be-Gaze for data analysis
-Content 
+<br>SMI Eye-tracking system
+<br>Experiment Center for experiment design
+<br>Be-Gaze for data analysis
+<br>Content 
 </p>
 
 <h2>Limitations</h2>
 <p>
-  Depending on results from the experiment, we plan to come up with design principles for design of audiobooks and presentations. 
-We also plan to suggest specific scenarios/applications that would be better suited for the 4 different variants of audio and/or text. 
-
+Depending on results from the experiment, we plan to come up with design principles for design of audiobooks and presentations. 
+<br>We also plan to suggest specific scenarios/applications that would be better suited for the 4 different variants of audio and/or text. 
 </p>
 <h2>Links</h2>
 <p>
 Google Drive Folder
-https://drive.google.com/folderview?id=0B-qYIXLE1MTqQ2hfYVpERDNtUjg&usp=sharing
+<br>https://drive.google.com/folderview?id=0B-qYIXLE1MTqQ2hfYVpERDNtUjg&usp=sharing
 
-Github Page
-http://divyakkm.github.io/i290_eyetracking/
+<br>Github Page
+<br>http://divyakkm.github.io/i290_eyetracking/
   
 </p>
 
 <h2>References</h2>
 <p>
 Literature
-https://drive.google.com/drive/#folders/0B-qYIXLE1MTqQ2hfYVpERDNtUjg/0B-qYIXLE1MTqYmJLY0kzbW1EZ0E
+<br>https://drive.google.com/drive/#folders/0B-qYIXLE1MTqQ2hfYVpERDNtUjg/0B-qYIXLE1MTqYmJLY0kzbW1EZ0E
 
-Content and Questions
-http://www.manythings.org/listen/
-https://www.ets.org/gre/revised_general/prepare/verbal_reasoning/reading_comprehension/sample_questions
+<br>Content and Questions
+<br>http://www.manythings.org/listen/
+<br>https://www.ets.org/gre/revised_general/prepare/verbal_reasoning/reading_comprehension/sample_questions
 
 </p>
   </body>
